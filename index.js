@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+const { fetch } = require('undici');
 
 const DISCORD_USERS_AOC_USERS = {
   "2246559": "<@658650587679948820>",
