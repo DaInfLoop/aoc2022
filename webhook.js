@@ -36,7 +36,7 @@ const DISCORD_USERS_AOC_USERS = {
           title: "Advent of Code Leaderboard",
           description: leaderboard.join('\n'),
           color: 0xFFFF01,
-          url: process.env.LEADERBOARD.replace('.json', ''),
+          url: 'https://adventofcode.com/2022/leaderboard/private/view/2246559',
           author: {
             name: "Replit Clubs",
             url: "https://discord.com/channels/437048931827056642/1038126782852894771",
