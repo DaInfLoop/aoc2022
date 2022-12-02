@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-const input = fs.readFileSync('./days/1.input.txt', 'utf-8').split('\n\n').map(x=>x.split('\n').map(x=>parseInt(x)))
+const input = fs.readFileSync('./days/1/input.txt', 'utf-8').split('\n\n').map(x=>x.split('\n').map(x=>parseInt(x)))
 let elves = []
 
 input.forEach((x, ii) => {
